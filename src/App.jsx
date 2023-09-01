@@ -1,28 +1,14 @@
-import React from 'react';
-// import Navbar from './components/main/Navbar';
-// import Footer from './components/main/Footer';
-import { Route, Routes } from 'react-router-dom';
-import LandingPage from './LandingPage';
-import HomePage from './components/pages/homepage';
-import AboutMe from './components/pages/aboutme';
-import Projects from './components/pages/projects';
-import ContactMe from './components/pages/contactme';
 import "./App.css";
-
-
-function App() {
+import Routing from "./components/main/Routing";
+import Navbar from "./components/main/Navbar";
+// import LandingPage from "./LandingPage";
+const App = () => {
   return (
-    <div className="App">
-      <LandingPage />
-      <Routes>
-		<Route path="/home" element={<HomePage />} />
-		<Route path="/aboutme" element={<AboutMe />} />
-		<Route path="/projects" element={<Projects />} />
-		<Route path="/contactme" element={<ContactMe />} />
-      </Routes>
-    </div>
+    <>
+    <Navbar />
+    <Routing />
+    </>
   );
 }
 
 export default App;
-

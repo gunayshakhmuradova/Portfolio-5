@@ -35,11 +35,12 @@ import Chatgpt from '../../assets/skills/chatgpt.png';
 
 function AboutMe() {
   return (
+    
     <div>
       <section id="aboutme">
         <div>
           <h2>About me</h2>
-          <p>
+          <p className='paragraph'>
           <span>W</span>ith my interest in web technologies and my desire to create creative solutions, I am here to create user-friendly and engaging web experiences. If you would like to share my passion for technology, work together on innovative projects or exchange views about my experiences, please feel free to contact me. You can reach me here.
           Thank you for visiting my website!
           </p>

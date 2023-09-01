@@ -6,22 +6,22 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <Link to="../../LandingPage">Gunay Shakhmuradova</Link>
+        <Link to="/">Gunay Shakhmuradova</Link>
       </div>
       
       <nav>
         <ul>
           <li>
-            <Link to="../../pages/homepage">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="../../pages/aboutme">About me</Link>
+            <Link to="/aboutme">About me</Link>
           </li>
           <li>
-            <Link to="../../pages/projects">Projects</Link>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <Link to="../../pages/contactme">Contact me</Link>
+            <Link to="/contactme">Contact me</Link>
           </li>
         </ul>
       </nav>

@@ -13,6 +13,7 @@ const Home = () => {
   const behanceUrl = 'https://www.behance.net/gunayshakhmuradova93';
 
   return (
+   
     <div className="homePage">
       <div className="main">
         <p>
@@ -65,6 +66,7 @@ const Home = () => {
       </div>
       <img src={Avatar} alt="Avatar" />
     </div>
+  
   );
 };
 

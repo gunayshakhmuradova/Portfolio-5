@@ -7,19 +7,15 @@
 .contact-info {
     border: 1px solid #ccc;
     width: 50rem;
-    padding: 2rem;
-    margin-left: 32rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
-    align-items: center;
-    justify-content: center;
+    height: 25rem;
+    margin: auto;
     text-align: center;
-    overflow: hidden; 
-
+  
     & p {
-    font-size: 1.8rem;
-    margin-right:32rem;
-  }
+      font-size: 2rem;
+      margin: auto;
+      padding: 2rem;
+    }
+    
 }
   

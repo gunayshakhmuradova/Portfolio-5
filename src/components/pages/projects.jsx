@@ -1,105 +1,125 @@
 import React from 'react';
 import '../styles/projects.css';
+import Snake from '../../assets/projects/snake.PNG';
+import Calculator from '../../assets/projects/calculator.PNG';
+import Cinemareserve from '../../assets/projects/cinemareserve.PNG';
+import Hangman from '../../assets/projects/hangman.PNG';
+import Quotamachine from '../../assets/projects/quotamachine.PNG';
+import Vacantion from '../../assets/projects/vacantion.PNG';
+import Budgetapp from '../../assets/projects/budgetapp.PNG';
+import Healthcareapp from '../../assets/projects/healthcareapp.png';
+import Littlelemon from '../../assets/projects/littlelemon.PNG';
+import Sevabeauty from '../../assets/projects/sevabeauty.PNG';
+import Portfolio from '../../assets/projects/portfolio.PNG';
+import ImageGenerator from '../../assets/projects/imagegenerator.PNG';
+
+
 
 const Projects = () => {
   return (
     <div className="projects">
       <h2> Projects </h2>
+
       <div class="cards">
-        <div className="card">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path>
-            </svg>
+
+        <div className="card snake">
+          <img src={Snake} alt="" />
             <div className="card__content">
-                <p className="card__title">Card Title</p>
-                <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <p className="card__title">Snake Game</p>
+                <p className="card__description"><a href="https://github.com/gunayshakhmuradova/Snake-Game">Github</a><a href="https://codepen.io/gunayshakhmuradova/pen/bGOdyzr">Codepen</a></p>
             </div>
         </div>
-        <div className="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path>
-          </svg>
+
+        <div className="card calculator">
+          <img src={Calculator} alt="" />
           <div className="card__content">
-              <p className="card__title">Card Title</p>
-              <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <p className="card__title">Calculator App</p>
+              <p className="card__description"><a href="https://github.com/gunayshakhmuradova/Calculator">Github</a><a href="https://codepen.io/gunayshakhmuradova/pen/QWZRoJj">Codepen</a></p>
           </div>
         </div>
-        <div className="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path>
-          </svg>
+
+        <div className="card cinemareserve">
+          <img src={Cinemareserve} alt="" />
           <div className="card__content">
-              <p className="card__title">Card Title</p>
-              <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <p className="card__title">Cinema Reserve App</p>
+              <p className="card__description"><a href="https://github.com/gunayshakhmuradova/Cinema-Reserve">Github</a><a href="https://codepen.io/gunayshakhmuradova/pen/bGQyOGY">Codepen</a></p>
           </div>
         </div>
-        <div className="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path>
-          </svg>
+
+        <div className="card hangman">
+          <img src={Hangman} alt="" />
           <div className="card__content">
-              <p className="card__title">Card Title</p>
-              <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <p className="card__title">Hangman Game</p>
+              <p className="card__description"><a href="https://github.com/gunayshakhmuradova/Hangman">Github</a><a href="https://codepen.io/gunayshakhmuradova/pen/xxQNmGK">Codepen</a></p>
           </div>
         </div>
-        <div className="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path>
-          </svg>
+
+        <div className="card quotemachine">
+          <img src={Quotamachine} alt="" />
           <div className="card__content">
-              <p className="card__title">Card Title</p>
-              <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <p className="card__title">Quota Machine App</p>
+              <p className="card__description"><a href="https://github.com/gunayshakhmuradova/Quote-Machine">Github</a></p>
+          </div>
+        </div>
+
+        <div className="card vacantion">
+          <img src={Vacantion} alt="" />
+          <div className="card__content">
+          <p className="card__title" style={{ fontSize: "1.3rem" }}>Vacation Destinations Wish List</p>
+
+              <p className="card__description"><a href="https://github.com/gunayshakhmuradova/Vacation-Destination-List">Github</a><a href="https://codepen.io/gunayshakhmuradova/pen/RwENPvV">Codepen</a></p>
+          </div>
+        </div>
+
+        <div className="card budgetapp">
+          <img src={Budgetapp} alt="" />
+            <div className="card__content">
+                <p className="card__title">Budget App</p>
+                <p className="card__description"><a href="https://github.com/gunayshakhmuradova/Budget-App">Github</a></p>
+            </div>
+        </div>
+
+        <div className="card healthcareapp">
+          <img src={Healthcareapp} alt="" />
+           <div className="card__content">
+              <p className="card__title">Healthcare App</p>
+              <p className="card__description"><a href="https://github.com/gunayshakhmuradova/Healthcare-App">Github</a></p>
+          </div>
+        </div>
+
+        <div className="card imagegenerator">
+          <img src={ImageGenerator} alt="" />
+          <div className="card__content">
+              <p className="card__title">AI Image Generator</p>
+              <p className="card__description"><a href="https://github.com/gunayshakhmuradova/AI-Image-Generator">Github</a></p>
+          </div>
+        </div>
+        
+        <div className="card littlelemon">
+          <img src={Littlelemon} alt="" />
+           <div className="card__content">
+              <p className="card__title">Little Lemon Website</p>
+              <p className="card__description"><a href="https://github.com/gunayshakhmuradova/Little-Lemon-Restaurant">Github</a><a href="https://www.behance.net/gallery/176191915/Little-Lemon-Restaurant-Website-for-Meta-Course">Behance</a></p>
+          </div>
+        </div>
+
+        <div className="card portfolio">
+          <img src={Portfolio} alt="" />
+          <div className="card__content">
+              <p className="card__title">Portfolio Website</p>
+              <p className="card__description"><a href="https://github.com/gunayshakhmuradova/Portfolio-2">Github</a><a href="https://www.behance.net/gallery/176773799/Portfolio-Website">Behance</a></p>
+          </div>
+        </div>
+
+        <div className="card sevabeauty">
+          <img src={Sevabeauty} alt="" />
+          <div className="card__content">
+              <p className="card__title">Beauty Salon Website</p>
+              <p className="card__description"><a href="https://github.com/gunayshakhmuradova/Seva-Beauty-Website">Github</a><a href="https://www.behance.net/gallery/176171187/Seva-Beauty-Website">Behance</a></p>
           </div>
         </div>
       </div>
-      <div class="cards">
-        <div className="card">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path>
-            </svg>
-            <div className="card__content">
-                <p className="card__title">Card Title</p>
-                <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-            </div>
-        </div>
-        <div className="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path>
-          </svg>
-          <div className="card__content">
-              <p className="card__title">Card Title</p>
-              <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-          </div>
-        </div>
-        <div className="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path>
-          </svg>
-          <div className="card__content">
-              <p className="card__title">Card Title</p>
-              <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-          </div>
-        </div>
-        <div className="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path>
-          </svg>
-          <div className="card__content">
-              <p className="card__title">Card Title</p>
-              <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-          </div>
-        </div>
-        <div className="card">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path>
-          </svg>
-          <div className="card__content">
-              <p className="card__title">Card Title</p>
-              <p className="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-          </div>
-        </div>
-      </div>
-      <button> HOVER ME
+      <button className="button"> <a href="https://www.github.com/gunayshakhmuradova" target='_blank'>See More</a>
       </button>
     </div>
   );
