@@ -4,7 +4,7 @@ import HomePage from '../pages/homepage';
 import AboutMe from '../pages/aboutme';
 import Projects from '../pages/projects';
 import ContactMe from '../pages/contactme';
-import LandingPage from '../pages/LandingPage';
+import LandingPage from '../pages/landingpage';
 
 const Routing = () => {
   return (
