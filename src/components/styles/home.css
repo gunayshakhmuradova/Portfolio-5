@@ -3,7 +3,8 @@
 .homePage {
     display: flex;
     flex-direction: row;
-    margin: 5rem;
+    margin-top: 3rem;
+    margin-left: 8rem;
   
   
   & p {
@@ -12,7 +13,7 @@
     line-height: 1.5;
     text-align: center;
     margin-top: 5rem;
-    margin-left: 20rem;
+    margin-left: 10rem;
     padding: 2rem;
     justify-content: center;
     align-items: center;
@@ -41,7 +42,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    margin-left: 34rem;
+    margin-left: 24rem;
 }
  
   
@@ -127,7 +128,7 @@
   .card1:hover {
     cursor: pointer;
     scale: 1.1;
-    background-color: #cc39a4;
+    background-color: #08b1ff;
   }
   
   .card1:hover .linkedin {
@@ -137,7 +138,7 @@
   .card2:hover {
     cursor: pointer;
     scale: 1.1;
-    background-color: #03A9F4;
+    background-color: #cc39a4;
   }
   
   .card2:hover .codepen {
@@ -147,7 +148,7 @@
   .card3:hover {
     cursor: pointer;
     scale: 1.1;
-    background-color:aquamarine;
+    background-color: #67d4b0;
   }
   
   .card3:hover .github {
@@ -157,7 +158,7 @@
   .card4:hover {
     cursor: pointer;
     scale: 1.1;
-    background-color: #8c9eff;
+    background-color: #4255bd;
   }
   
   .card4:hover .behance {
