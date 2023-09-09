@@ -2,9 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+
 }
 
 body {
+  max-width: 100%;
+  max-height: auto;
+  overflow-x: hidden;
   background-color: #131d30;
   color: #CFD8E2;
   font-family: 'Roboto Condensed', sans-serif;
