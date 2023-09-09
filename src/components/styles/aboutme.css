@@ -7,7 +7,7 @@ section {
   
   h2 {
     font-size: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 5rem;
     text-align: center;
 
     &:hover {
@@ -22,8 +22,7 @@ section {
     line-height: 1.5;
     width: 40vw;
     text-align: center;
-    margin-left: 31rem;
-    margin-bottom: 3rem;
+    margin: auto;
   
   & span {
     font-weight: bold;
@@ -60,7 +59,7 @@ section {
 
   & a {
     text-decoration: none;
-    color: white;
+    color: #CFD8E2;
     padding: 0.5rem 1rem;
     border-radius: 0.2rem;
     transition: background-color 0.3s ease;
@@ -89,7 +88,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 5rem;
   }
   
   .skill {

@@ -36,7 +36,7 @@ import Chatgpt from '../../assets/skills/chatgpt.png';
 function AboutMe() {
   return (
     
-    <div>
+    <div className="aboutme">
       <section id="aboutme">
         <div>
           <h2>About me</h2>

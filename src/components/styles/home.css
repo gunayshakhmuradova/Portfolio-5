@@ -3,8 +3,9 @@
 .homePage {
     display: flex;
     flex-direction: row;
-    margin-top: 3rem;
-    margin-left: 8rem;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-left: 25rem;
   
   
   & p {
@@ -12,8 +13,6 @@
     font-size: 1.8rem;
     line-height: 1.5;
     text-align: center;
-    margin-top: 5rem;
-    margin-left: 10rem;
     padding: 2rem;
     justify-content: center;
     align-items: center;
@@ -29,11 +28,7 @@
   
   & img {
     max-width: 520px;
-    height: 520px;
-    margin-top: 2rem;
-    margin-left: 10rem;
-    justify-content: flex-end;
-    align-items: flex-end;
+    height: auto;
     border-radius: 30%;
   }
   
@@ -42,7 +37,8 @@
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    margin-left: 24rem;
+    margin-left: 12rem;
+    margin-top: 2rem;
 }
  
   
@@ -63,15 +59,15 @@
     height: 90px;
     outline: none;
     border: none;
-    background: white;
+    background: #CFD8E2;
     border-radius: 90px 5px 5px 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: .2s ease-in-out;
   }
   
   .linkedin {
-    margin-top: 1.5em;
-    margin-left: 1.2em;
+    margin-top: 1.6em;
+    margin-left: 1.8em;
     fill: #cc39a4;
   }
   
@@ -80,7 +76,7 @@
     height: 90px;
     outline: none;
     border: none;
-    background: white;
+    background: #CFD8E2;
     border-radius: 5px 90px 5px 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: .2s ease-in-out;
@@ -97,7 +93,7 @@
     height: 90px;
     outline: none;
     border: none;
-    background: white;
+    background: #CFD8E2;
     border-radius: 5px 5px 5px 90px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: .2s ease-in-out;
@@ -113,7 +109,7 @@
     height: 90px;
     outline: none;
     border: none;
-    background: white;
+    background: #CFD8E2;
     border-radius: 5px 5px 90px 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: .2s ease-in-out;
@@ -132,7 +128,7 @@
   }
   
   .card1:hover .linkedin {
-    fill: white;
+    fill: #CFD8E2;
   }
   
   .card2:hover {
@@ -142,7 +138,7 @@
   }
   
   .card2:hover .codepen {
-    fill: white;
+    fill: #CFD8E2;
   }
   
   .card3:hover {
@@ -152,7 +148,7 @@
   }
   
   .card3:hover .github {
-    fill: white;
+    fill:#CFD8E2;
   }
   
   .card4:hover {
@@ -162,5 +158,5 @@
   }
   
   .card4:hover .behance {
-    fill: white;
+    fill:#CFD8E2;
   }

@@ -1,5 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: black;
-  color: aliceblue;
+  background-color: #131d30;
+  color: #CFD8E2;
   font-family: 'Roboto Condensed', sans-serif;
 }

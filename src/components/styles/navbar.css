@@ -1,14 +1,14 @@
 /* navbar.css */
 
  .logo {
-    font-size: 5rem;
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: none;
-    margin-top: 1rem;
+    margin: 1rem;
     margin-left: 3rem;
    
     & a {
-      color: white;
+      
       transition: color 0.3s;
       text-decoration: none;
 
@@ -21,29 +21,29 @@
 
 }
 .navbar {
-    color: white;
-    margin-right: 6rem;
     display: flex;
     justify-content: space-between;
+    background-color: #06235e;
+    border-bottom: 1px solid #CFD8E2;
+    cursor: pointer;
   
   & ul {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
     padding: 0;
-    
+    margin-right: 3rem;
+
      & li {
-        margin-left: 1rem;
-        padding: 2rem;
+        padding: 1rem;
   
       & a {
-            text-decoration: none;
-            color: white;
+            text-decoration: none;    
             font-weight: bold;
             transition: color 0.3s;
-            font-size: 2rem;
+            font-size: 1.8rem;
+            padding: 1rem;
             
-        
         
         &:hover {
             color: #ff00f2bd;

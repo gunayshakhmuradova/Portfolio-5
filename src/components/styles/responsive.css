@@ -1,0 +1,133 @@
+@media (max-width: 768px) { 
+    body {
+        width: 760px;
+        height: auto;
+    }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+
+    & .logo {
+        font-size: 1.4rem;
+        text-align: center;
+        margin: auto;
+    }
+
+    & ul {
+      display: flex;
+      flex-direction: row;
+      margin: auto;
+
+     
+      & li {
+        padding-bottom: 0.2rem;
+        padding-inline: 0.1rem;
+
+        & a {
+          font-size: 1rem;
+        }
+    
+      }
+
+    }
+  }
+
+  .homePage {
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 8rem;
+
+    & p {
+      width: 40vw;
+      font-size: 1rem;
+
+      & span {
+        font-size: 1rem;
+      }
+    }
+
+    & img {
+      width: 24vw;
+      max-height: 10vh;
+    }
+
+    & .social {
+        margin: 0;
+        margin-left: 5rem;
+
+     & .card1, .card2, .card3, .card4 {
+        width: 70px;
+        height: 70px;
+     }
+
+     & .linkedin, .behance, .github, .codepen {
+        max-width: auto;
+        max-height: auto;
+     }
+     .linkedin {
+        margin-top: 1em;
+     }
+    }
+  }
+
+  .aboutme {
+    & h2 {
+      font-size: 2rem;
+    }
+    & .paragraph {
+      font-size: 1rem;
+      margin: auto;
+    }
+
+    & .all_skills {
+      display: flex;
+      flex-direction: row;
+      gap: 0.2rem;
+
+      & img {
+        width: 4rem;
+        height: 4rem;
+      }
+    }
+  }
+
+  .projects {
+     & h2 {
+        font-size: 2rem;
+     } 
+     & .cards {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: auto;
+        padding: 1rem;
+        padding-inline-start: 3rem;
+
+     }
+     & .button {
+        margin-left: 20rem;
+     }
+  }
+
+  .contactme {
+    & h2 {
+      font-size: 2rem;
+    }
+    & .contact-info {
+      width: 40vw;
+      height: 20vh;
+    }
+    & p {
+          font-size: 1rem;
+        }
+        
+   
+  }
+}

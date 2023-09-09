@@ -1,7 +1,9 @@
+import { useEffect, useState } from "react";
 import Routing from "./components/main/Routing";
 import Navbar from "./components/main/Navbar";
 import "./App.css";
-import { useEffect, useState } from "react";
+import "./components/styles/responsive.css";
+
 
 const MousePosition = ({ render }) => {
   const [mousePosition, setMousePosition] = useState({
