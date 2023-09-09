@@ -75,7 +75,16 @@
         color: #ff00f2;
     }
 }
-
+.code {
+    display: none;  
+    transition: 0.6s ease-in-out;
+  }
+  
+  .card__title:hover .code {
+    display: inline;
+    color: #ff00f2;
+  
+  }
 & .card__description {
     margin: 1rem;
     display: flex;
