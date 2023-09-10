@@ -12,6 +12,7 @@ import Littlelemon from '../../assets/projects/Littlelemon.PNG';
 import Sevabeauty from '../../assets/projects/Sevabeauty.PNG';
 import Portfolio from '../../assets/projects/Portfolio.PNG';
 import ImageGenerator from '../../assets/projects/Imagegenerator.PNG';
+import Game2048 from '../../assets/projects/2048.PNG'
 
 
 
@@ -51,6 +52,14 @@ const Projects = () => {
           <div className="card__content">
               <p className="card__title"><span className="code">&lt;</span>Hangman Game<span className="code">&#47;&gt;</span></p>
               <p className="card__description"><a href="https://github.com/gunayshakhmuradova/Hangman">Github</a><a href="https://codepen.io/gunayshakhmuradova/pen/xxQNmGK">Codepen</a></p>
+          </div>
+        </div>
+
+        <div className="card game2048">
+          <img src={Hangman} alt="" />
+          <div className="card__content">
+              <p className="card__title"><span className="code">&lt;</span>2048 Game<span className="code">&#47;&gt;</span></p>
+              <p className="card__description"><a href="https://github.com/gunayshakhmuradova/2048-Game">Github</a><a href="https://codepen.io/gunayshakhmuradova/pen/QWzpaJd">Codepen</a></p>
           </div>
         </div>
 
