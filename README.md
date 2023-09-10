@@ -2,19 +2,18 @@
 <br><br>
 <b>This is a "Portfolio website" for react.</b>
 <br><br>
-<img src="https://github.com/gunayshakhmuradova/Portfolio-5/assets/126316477/7e097490-9f5b-40c7-91c9-1c97b98e7381" alt="portfolio1" width="480" height="240">
+<img src="https://github.com/gunayshakhmuradova/Portfolio-5/assets/126316477/df9de500-ab2b-43f4-9eb9-c788e4215a99" alt="portfolio1" width="480" height="240">
 <br> <br>
-<img src="https://github.com/gunayshakhmuradova/Portfolio-5/assets/126316477/2a4fe0a9-39a3-44b6-853e-ddf3f4c75669" alt="portfolio2" width="480" height="240">
+<img src="https://github.com/gunayshakhmuradova/Portfolio-5/assets/126316477/595290f3-904c-4858-a691-a9080a69af90" alt="portfolio2" width="480" height="240">
 <br><br>
-<img src="https://github.com/gunayshakhmuradova/Portfolio-5/assets/126316477/94d3dd9f-aac4-435f-bd04-b29cff676562" alt="portfolio3" width="480" height="240">
+<img src="https://github.com/gunayshakhmuradova/Portfolio-5/assets/126316477/468277f4-a44a-48fa-aa9b-11c1421c489c" alt="portfolio3" width="480" height="240">
 <br><br>
-<img src="https://github.com/gunayshakhmuradova/Portfolio-5/assets/126316477/cf181586-9b31-4d1a-8542-6b9f43254d8f" alt="portfolio3" width="480" height="240">
+<img src="https://github.com/gunayshakhmuradova/Portfolio-5/assets/126316477/dea96e2c-c384-43ec-8ccf-4d07043cf594" alt="portfolio3" width="480" height="240">
 <br><br>
-<img src="https://github.com/gunayshakhmuradova/Portfolio-5/assets/126316477/748cd1ad-3bfb-40e0-b80e-0bf2acff240a" alt="portfolio3" width="480" height="240">
+<img src="https://github.com/gunayshakhmuradova/Portfolio-5/assets/126316477/a7cc33f7-4108-40a6-aa4a-10144781e91c" alt="portfolio3" width="480" height="240">
 <br><br>
-<img src="https://github.com/gunayshakhmuradova/Portfolio-5/assets/126316477/bfa2323d-8494-4d80-8614-fd3169e47515" alt="portfolio3" width="480" height="240">
+<img src="https://github.com/gunayshakhmuradova/Portfolio-5/assets/126316477/9f49296f-1938-45be-a606-842089b3cfe6" alt="portfolio3" width="480" height="240">
 <br><br>
-
 
 
 # Getting Started with Create React App
