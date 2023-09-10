@@ -26,7 +26,7 @@ const Home = () => {
             
               <button className="card1">
                 <a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="social-link">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="100px" height="100px" fillRule="nonzero" className="linkedin">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0,256,256" width="120px" height="120px" fillRule="nonzero" className="linkedin">
                     <image href={LinkedIn} width="120px" height="120px" />
                   </svg>
                 </a>

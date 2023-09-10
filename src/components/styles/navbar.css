@@ -1,31 +1,11 @@
 /* navbar.css */
-
- .logo {
-    font-size: 2rem;
-    font-weight: bold;
-    text-decoration: none;
-    margin: 1rem;
-    margin-left: 3rem;
-   
-    & a {
-      
-      transition: color 0.3s;
-      text-decoration: none;
-
-      &:hover {
-        color: #ff00f2bd;
-        transition: 0.6s ease-in-out;
-      }
-    }
-
-
-}
 .navbar {
     display: flex;
     justify-content: space-between;
     background-color: #06235e;
     border-bottom: 1px solid #CFD8E2;
     cursor: pointer;
+    font-family: 'Jost', sans-serif;
   
   & ul {
     list-style-type: none;
@@ -49,6 +29,24 @@
             color: #ff00f2bd;
             transition: 0.3s ease-in-out;
         }
+      }
+    }
+  }
+& .logo {
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 1rem;
+    margin-left: 3rem;
+   
+    & a {
+      
+      transition: color 0.3s;
+      text-decoration: none;
+
+      &:hover {
+        color: #ff00f2bd;
+        transition: 0.6s ease-in-out;
       }
     }
   }

@@ -12,5 +12,9 @@ body {
   overflow-x: hidden;
   background-color: #131d30;
   color: #CFD8E2;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+h2 {
+font-family: 'Jost', sans-serif;
 }

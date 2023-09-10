@@ -2,7 +2,7 @@
 section {
     text-align: center;
     padding: 4rem;
-    
+    font-family: 'Zeyada', cursive;
   }
   
   h2 {
@@ -27,7 +27,6 @@ section {
   & span {
     font-weight: bold;
     font-size: 3rem;
-    color: #e4d0dfec;
   }
 }
 
@@ -69,9 +68,7 @@ section {
   /* Styling for the skills section */
   #Skills {
     padding: 2rem;
-    
  
-  
   & h2 {
     font-size: 3rem;
     text-align: center;
