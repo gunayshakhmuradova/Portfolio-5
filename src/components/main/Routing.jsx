@@ -5,6 +5,7 @@ import AboutMe from '../pages/aboutme';
 import Projects from '../pages/projects';
 import ContactMe from '../pages/contactme';
 import LandingPage from '../pages/landingpage';
+import Footer from './Footer'
 
 const Routing = () => {
   return (
@@ -16,6 +17,7 @@ const Routing = () => {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contactme" element={<ContactMe />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
